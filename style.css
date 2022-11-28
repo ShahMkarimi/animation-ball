@@ -1,0 +1,249 @@
+body{
+    padding: 0%;
+    margin: auto;
+    background-color: black;
+    box-sizing: border-box;
+
+}
+div.topnavi {
+    background-image: url('img/lslago.PNG');
+    background-size: cover;
+    height: 140px;
+    width: 100%;
+    position: sticky;
+    top: 0%;
+    z-index: 1000;
+    display: flex;
+    flex-direction: row;
+ }
+ img.llago1 {
+    position: relative;
+    margin-top: -20px;
+    margin-left: 20px;
+  }
+  img.ball {
+    border-radius: 50%;
+    width: 140px;
+    position: relative;
+    margin-top: 5px;
+    margin-left: 30%;
+    animation: move2 10s infinite;
+    transition: 3s ease-in; 
+ }
+ @keyframes move2 {
+    0% {left: 290px; right: 0px; transform: rotate(360deg)}
+    50% {left:-412px; right: 0px; transform: rotate(-360deg)}
+    100% { left:290px; right:0px;}
+ }
+
+ img.rlago {
+    position: relative;
+    margin-left: 20%;
+ }
+ /* for mobile phone max-width 600px*/
+@media only screen and (max-width: 600px) {
+    div.topnavi{
+        width: 100%;
+        height:107px ;
+     } 
+  
+     img.llago1{
+        width: 200px;
+     }
+     img.ball {
+        width: 100px;
+        height: 100px;
+     }
+     
+     @keyframes move2 {
+        0% {left: 40px; right: 0px; transform: rotate(360deg)}
+        50% {left:-160px; right: 0px; transform: rotate(-360deg)}
+        100% { left:40px; right:0px;}
+     }
+  
+     img.rlago {
+        position: relative;
+        margin-left: 20%;
+        visibility: hidden;
+     }
+ }
+
+ @media only screen and (min-width: 600px ){
+
+
+    div.topnavi {
+        width: 100%;
+        height:107px;
+     }
+     
+     img.llago1 {
+        width: 250px;
+     }
+     
+     img.ball {
+        width: 100px;
+        height: 100px;
+     }
+     
+     @keyframes move2 {
+        0% {left: 110px; right: 0px; transform: rotate(360deg)}
+        50% {left:-215px; right: 0px; transform: rotate(-360deg)}
+        100% { left:110px; right:0px;}
+     }
+     
+     img.rlago {
+        position: relative;
+        margin-left: 20%;
+        visibility: hidden;
+     }
+     
+
+ }
+ /* for laptop amd other max 992 px  k */
+@media only screen and (min-width: 768px ){
+    
+    div.topnavi {
+        width: 100%;
+        height:140px;
+     }
+     
+     img.llago1 {
+        width: 300px;
+     }
+     
+     img.ball {
+        width: 140px;
+        height: 140px;
+     }
+     
+     @keyframes move2 {
+        0% {left: 160px; right: 0px; transform: rotate(360deg)}
+        50% {left:-300px; right: 0px; transform: rotate(-360deg)}
+        100% { left:160px; right:0px;}
+     }
+     
+     img.rlago {
+        position: relative;
+        margin-left: 20%;
+        visibility: visible;
+     }
+}
+@media only screen and (min-width: 992px) {
+    
+   div.topnavi {
+    height: 140px;
+    width: 100%;
+ }
+
+ img.llago1 {
+   position: relative;
+   margin-top: -20px;
+   margin-left: 20px;
+ }
+
+ img.ball {
+    border-radius: 50%;
+    width: 140px;
+    position: relative;
+    margin-top: 5px;
+    margin-left: 30%;
+    animation: move2 10s infinite;
+    transition: 3s ease-in; 
+ }
+
+ @keyframes move2 {
+    0% {left: 200px; right: 0px; transform: rotate(360deg)}
+    50% {left:-350px; right: 0px; transform: rotate(-360deg)}
+    100% { left:200px; right:0px;}
+ }
+
+ img.rlago {
+    position: relative;
+    margin-left: 20%;
+ }
+}
+/* for large screen */
+@media only screen and (min-width: 1150px) {
+    
+   div.topnavi {
+    background-image: url('img/lslago.PNG');
+    background-size: cover;
+    height: 140px;
+    width: 100%;
+    position: sticky;
+    top: 0%;
+    z-index: 1000;
+    display: flex;
+    flex-direction: row;
+ }
+
+ img.llago1 {
+   position: relative;
+   margin-top: -20px;
+   margin-left: 20px;
+ }
+
+ img.ball {
+    border-radius: 50%;
+    width: 140px;
+    position: relative;
+    margin-top: 5px;
+    margin-left: 30%;
+    animation: move2 10s infinite;
+    transition: 3s ease-in; 
+ }
+
+ @keyframes move2 {
+    0% {left: 290px; right: 0px; transform: rotate(360deg)}
+    50% {left:-412px; right: 0px; transform: rotate(-360deg)}
+    100% { left:290px; right:0px;}
+ }
+
+ img.rlago {
+    position: relative;
+    margin-left: 20%;
+ }
+}
+/* for large screen */
+@media only screen and (min-width: 1366px) {
+    
+  div.topnavi {
+    background-image: url('img/lslago.PNG');
+    background-size: cover;
+    height: 145px;
+    width: 100%;
+    position: sticky;
+    top: 0%;
+    z-index: 1000;
+    display: flex;
+    flex-direction: row;
+ }
+ 
+ img.llago1 {
+   position: relative;
+   margin-top: -20px;
+   margin-left: 20px;
+ }
+ 
+ img.ball {
+    border-radius: 50%;
+    width: 140px;
+    position: relative;
+    margin-top: 5px;
+    margin-left: 30%;
+    animation: move2 10s infinite;
+    transition: 3s ease-in; 
+ }
+ 
+ @keyframes move2 {
+    0% {left: 290px; right: 0px; transform: rotate(360deg)}
+    50% {left:-412px; right: 0px; transform: rotate(-360deg)}
+    100% { left:290px; right:0px;}
+ }
+ 
+ img.rlago {
+    position: relative;
+    margin-left: 20%;
+ }
+ 
+}
