@@ -5,6 +5,7 @@ body{
     box-sizing: border-box;
 
 }
+
 div.topnavi {
     background-image: url('img/lslago.PNG');
     background-size: cover;
@@ -30,6 +31,7 @@ div.topnavi {
     animation: move2 10s infinite;
     transition: 3s ease-in; 
  }
+ 
  @keyframes move2 {
     0% {left: 290px; right: 0px; transform: rotate(360deg)}
     50% {left:-412px; right: 0px; transform: rotate(-360deg)}
