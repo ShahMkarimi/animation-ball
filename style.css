@@ -69,6 +69,7 @@ div.topnavi {
         visibility: hidden;
      }
  }
+/*  for small screen*/
 
  @media only screen and (min-width: 600px ){
 
