@@ -4,7 +4,6 @@ body{
     margin: auto;
     background-color: black;
     box-sizing: border-box;
-
 }
 
 div.topnavi {
@@ -18,11 +17,13 @@ div.topnavi {
     display: flex;
     flex-direction: row;
  }
+
  img.llago1 {
     position: relative;
     margin-top: -20px;
     margin-left: 20px;
   }
+
   img.ball {
     border-radius: 50%;
     width: 140px;
