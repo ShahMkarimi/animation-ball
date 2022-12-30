@@ -90,6 +90,7 @@ div.topnavi {
         height: 100px;
      }
      
+/*    the animation code   */
      @keyframes move2 {
         0% {left: 110px; right: 0px; transform: rotate(360deg)}
         50% {left:-215px; right: 0px; transform: rotate(-360deg)}
