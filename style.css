@@ -210,6 +210,7 @@ div.topnavi {
     margin-left: 20%;
  }
 }
+
 /* for large screen */
 @media only screen and (min-width: 1366px) {
     
@@ -252,5 +253,4 @@ div.topnavi {
     margin-left: 20%;
  }
 }
-
 /*  all the css part*/
