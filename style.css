@@ -6,6 +6,7 @@ body{
     box-sizing: border-box;
 }
 
+
 div.topnavi {
     background-image: url('img/lslago.PNG');
     background-size: cover;
@@ -146,6 +147,7 @@ div.topnavi {
    margin-left: 20px;
  }
 
+    
  img.ball {
     border-radius: 50%;
     width: 140px;
