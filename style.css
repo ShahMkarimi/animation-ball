@@ -54,6 +54,7 @@ div.topnavi {
      img.llago1{
         width: 200px;
      }
+    
      img.ball {
         width: 100px;
         height: 100px;
@@ -171,6 +172,7 @@ div.topnavi {
  }
 }
 
+
 /* for large screen */
 @media only screen and (min-width: 1150px) {
     
@@ -258,4 +260,5 @@ div.topnavi {
     margin-left: 20%;
  }
 }
+
 /*  all the css part*/
