@@ -65,7 +65,8 @@ div.topnavi {
         50% {left:-160px; right: 0px; transform: rotate(-360deg)}
         100% { left:40px; right:0px;}
      }
-  
+ 
+    
      img.rlago {
         position: relative;
         margin-left: 20%;
