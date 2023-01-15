@@ -247,8 +247,7 @@ div.topnavi {
     margin-left: 30%;
     animation: move2 10s infinite;
     transition: 3s ease-in; 
- }
-    
+ } 
  
  @keyframes move2 {
     0% {left: 290px; right: 0px; transform: rotate(360deg)}
