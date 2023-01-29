@@ -120,6 +120,7 @@ div.topnavi {
         width: 300px;
      }
      
+    
      img.ball {
         width: 140px;
         height: 140px;
@@ -205,6 +206,7 @@ div.topnavi {
     transition: 3s ease-in; 
  }
 
+    
  @keyframes move2 {
     0% {left: 290px; right: 0px; transform: rotate(360deg)}
     50% {left:-412px; right: 0px; transform: rotate(-360deg)}
