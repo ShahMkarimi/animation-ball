@@ -1,7 +1,8 @@
 # animation-ball
-for top navigation; a ball that move beautifully 
+for top navigation; 
+a ball that move beautifully 
 it is made for top navigation-bar
-ball with great animation and move
+ball with great animation and movement
  made by css 
  .........................
  
